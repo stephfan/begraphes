@@ -1,0 +1,1192 @@
+**
+** Programme de test des algorithmes de graphe.
+**
+
+Nom du fichier .map a utiliser ? Fichier utilisee : /home/commetud/3eme Annee MIC/Graphes-et-Algorithmes/Maps/insa.map
+
+Voulez-vous une sortie graphique (0 = non, 1 = oui) ? Descripteur 0 = autoroute : Périphérique Ouest de Toulouse  (oneway) 90 km/h max 
+Descripteur 1 = route : Chemin du Canal 30 km/h max 
+Descripteur 2 = route : Avenue Édouard Belin  (oneway) 50 km/h max 
+Descripteur 3 = route : Boulevard de la Méditerranée 50 km/h max 
+Descripteur 4 = route : .  (oneway) 50 km/h max 
+Descripteur 5 = route : Rue Henri Vallée 30 km/h max 
+Descripteur 6 = route : .  (oneway) 50 km/h max 
+Descripteur 7 = route : .  (oneway) 50 km/h max 
+Descripteur 8 = route : . 50 km/h max 
+Descripteur 9 = route : Voie 4 30 km/h max 
+Descripteur 10 = route : Chemin des Maraîchers 50 km/h max 
+Descripteur 11 = route : . 30 km/h max 
+Descripteur 12 = route : Avenue de Rangueil 50 km/h max 
+Descripteur 13 = route : Avenue de Rangueil  (oneway) 50 km/h max 
+Descripteur 14 = route : . 30 km/h max 
+Descripteur 15 = route : . 30 km/h max 
+Descripteur 16 = route : Passerelle des Herbettes 30 km/h max 
+Descripteur 17 = route : .  (oneway) 30 km/h max 
+Descripteur 18 = route : Allée des Sciences Appliquées 30 km/h max 
+Fichier lu : 142 sommets, 169 aretes, 19 descripteurs.
+Sommet numéro 1 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = autoroute : Périphérique Ouest de Toulouse  (oneway) 90 km/h max 
+
+Sommet numéro 2 a 0 successeurs.
+
+Sommet numéro 3 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Chemin du Canal 30 km/h max 
+
+Sommet numéro 4 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = autoroute : Périphérique Ouest de Toulouse  (oneway) 90 km/h max 
+
+Sommet numéro 5 a 0 successeurs.
+
+Sommet numéro 6 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = autoroute : Périphérique Ouest de Toulouse  (oneway) 90 km/h max 
+
+Sommet numéro 7 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Boulevard de la Méditerranée 50 km/h max 
+
+Sommet numéro 8 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue Édouard Belin  (oneway) 50 km/h max 
+
+Sommet numéro 9 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Boulevard de la Méditerranée 50 km/h max 
+
+Descripteur 1 = route : .  (oneway) 50 km/h max 
+
+Sommet numéro 10 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Descripteur 1 = autoroute : Périphérique Ouest de Toulouse  (oneway) 90 km/h max 
+
+Sommet numéro 11 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Rue Henri Vallée 30 km/h max 
+
+Sommet numéro 12 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Chemin du Canal 30 km/h max 
+
+Descripteur 1 = route : Chemin du Canal 30 km/h max 
+
+Descripteur 2 = route : Rue Henri Vallée 30 km/h max 
+
+Sommet numéro 13 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Descripteur 1 = route : Chemin du Canal 30 km/h max 
+
+Sommet numéro 14 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Descripteur 1 = route : . 50 km/h max 
+
+Sommet numéro 15 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 50 km/h max 
+
+Sommet numéro 16 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Sommet numéro 17 a 0 successeurs.
+
+Sommet numéro 18 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Voie 4 30 km/h max 
+
+Sommet numéro 19 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Chemin des Maraîchers 50 km/h max 
+
+Sommet numéro 20 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Descripteur 1 = autoroute : Périphérique Ouest de Toulouse  (oneway) 90 km/h max 
+
+Sommet numéro 21 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 22 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 23 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil 50 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : Avenue de Rangueil 50 km/h max 
+
+Sommet numéro 24 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 25 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 26 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil  (oneway) 50 km/h max 
+
+Sommet numéro 27 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil  (oneway) 50 km/h max 
+
+Descripteur 1 = route : Avenue de Rangueil  (oneway) 50 km/h max 
+
+Sommet numéro 28 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : Avenue de Rangueil  (oneway) 50 km/h max 
+
+Sommet numéro 29 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 30 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : .  (oneway) 50 km/h max 
+
+Sommet numéro 31 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 32 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 33 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 34 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 35 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 36 a 4 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Descripteur 3 = route : . 30 km/h max 
+
+Sommet numéro 37 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 38 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Descripteur 1 = route : Passerelle des Herbettes 30 km/h max 
+
+Sommet numéro 39 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : .  (oneway) 50 km/h max 
+
+Sommet numéro 40 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 41 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : .  (oneway) 50 km/h max 
+
+Sommet numéro 42 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : .  (oneway) 50 km/h max 
+
+Sommet numéro 43 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 44 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 45 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 46 a 4 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : .  (oneway) 30 km/h max 
+
+Descripteur 3 = route : . 30 km/h max 
+
+Sommet numéro 47 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 30 km/h max 
+
+Descripteur 1 = route : .  (oneway) 30 km/h max 
+
+Sommet numéro 48 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 49 a 4 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Descripteur 3 = route : . 30 km/h max 
+
+Sommet numéro 50 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 51 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 52 a 4 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Descripteur 3 = route : . 30 km/h max 
+
+Sommet numéro 53 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 54 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 55 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 56 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 57 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 58 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 59 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 60 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 61 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil 50 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : Avenue de Rangueil 50 km/h max 
+
+Sommet numéro 62 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil 50 km/h max 
+
+Sommet numéro 63 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Descripteur 1 = route : Allée des Sciences Appliquées 30 km/h max 
+
+Sommet numéro 64 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Passerelle des Herbettes 30 km/h max 
+
+Sommet numéro 65 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Voie 4 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 66 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Chemin du Canal 30 km/h max 
+
+Descripteur 1 = route : Chemin du Canal 30 km/h max 
+
+Sommet numéro 67 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Chemin des Maraîchers 50 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : Chemin des Maraîchers 50 km/h max 
+
+Sommet numéro 68 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 69 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Allée des Sciences Appliquées 30 km/h max 
+
+Sommet numéro 70 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 71 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 72 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 50 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 73 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 74 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 75 a 0 successeurs.
+
+Sommet numéro 76 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 77 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 78 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 79 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 80 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 81 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 82 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 83 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 84 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 85 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 86 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 87 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 88 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Sommet numéro 89 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 90 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 91 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 92 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 93 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 94 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 95 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 96 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 97 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 98 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 99 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 100 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 101 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 102 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 103 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 104 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 105 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 106 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 107 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 108 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 109 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 110 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 111 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 112 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 113 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 114 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 115 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 116 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 117 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 118 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 119 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 120 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 121 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 122 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Sommet numéro 123 a 0 successeurs.
+
+Sommet numéro 124 a 0 successeurs.
+
+Sommet numéro 125 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 126 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 127 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 128 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 129 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 30 km/h max 
+
+Descripteur 1 = route : Chemin du Canal 30 km/h max 
+
+Descripteur 2 = route : Chemin du Canal 30 km/h max 
+
+Sommet numéro 130 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Chemin du Canal 30 km/h max 
+
+Descripteur 1 = route : .  (oneway) 30 km/h max 
+
+Descripteur 2 = route : Chemin du Canal 30 km/h max 
+
+Sommet numéro 131 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Chemin du Canal 30 km/h max 
+
+Descripteur 1 = route : .  (oneway) 30 km/h max 
+
+Descripteur 2 = route : Chemin du Canal 30 km/h max 
+
+Sommet numéro 132 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : .  (oneway) 30 km/h max 
+
+Sommet numéro 133 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 134 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : . 30 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : . 30 km/h max 
+
+Sommet numéro 135 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil 50 km/h max 
+
+Sommet numéro 136 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue Édouard Belin  (oneway) 50 km/h max 
+
+Sommet numéro 137 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil 50 km/h max 
+
+Descripteur 1 = route : Avenue de Rangueil  (oneway) 50 km/h max 
+
+Sommet numéro 138 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil  (oneway) 50 km/h max 
+
+Descripteur 1 = route : Avenue de Rangueil  (oneway) 50 km/h max 
+
+Sommet numéro 139 a 1 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil  (oneway) 50 km/h max 
+
+Sommet numéro 140 a 2 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil  (oneway) 50 km/h max 
+
+Descripteur 1 = route : Avenue de Rangueil 50 km/h max 
+
+Sommet numéro 141 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Avenue de Rangueil 50 km/h max 
+
+Descripteur 1 = route : . 30 km/h max 
+
+Descripteur 2 = route : Avenue de Rangueil 50 km/h max 
+
+Sommet numéro 142 a 3 successeurs.
+
+Parmi eux, voici quelques descripteurs : 
+
+Descripteur 0 = route : Chemin des Maraîchers 50 km/h max 
+
+Descripteur 1 = route : Avenue de Rangueil 50 km/h max 
+
+Descripteur 2 = route : Avenue de Rangueil 50 km/h max 
+
+
+MENU
+
+0 - Quitter
+1 - Composantes Connexes
+2 - Plus court chemin standard
+3 - Plus court chemin A-star
+4 - Passer en mode esclave (ouvre une socket UDP)
+5 - Cliquer sur la carte pour obtenir un numero de sommet.
+6 - Charger un fichier de chemin (.path) et le verifier.
+
+Votre choix ? Programme termine.

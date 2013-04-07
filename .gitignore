@@ -1,0 +1,5 @@
+./chemins/*
+./chemins
+*.path
+./Maps 
+./Maps/*

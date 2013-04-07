@@ -96,9 +96,9 @@ public class Graphe {
 		// Lecture du descripteur numero num_descr
 		descripteurs[num_descr] = new Descripteur(dis) ;
 
-		// On affiche quelques descripteurs parmi tous.
-		if (0 == num_descr % (1 + nb_descripteurs / 400))
-		    System.out.println("Descripteur " + num_descr + " = " + descripteurs[num_descr]) ;
+		//// On affiche quelques descripteurs parmi tous.
+		//if (0 == num_descr % (1 + nb_descripteurs / 400))
+		    //System.out.println("Descripteur " + num_descr + " = " + descripteurs[num_descr]) ;
 	    }
 	    
 	    Utils.checkByte(254, dis) ;
@@ -134,7 +134,7 @@ public class Graphe {
 						{
 
 							// Création de l'arc dans l'autre sens							
-							sommets[dest_node].addArc(arc1);
+							sommets[dest_node].addArc(arc2);
 
 						}
 
@@ -178,13 +178,13 @@ public class Graphe {
 			       + nb_descripteurs + " descripteurs.") ;
 			for (int z = 0; z <142; z++){
 				int nombre = sommets[z].getArcs().size();
-				System.out.println("Sommet numéro "+(z+1)+" a "+nombre+" successeurs.\n");
+				//System.out.println("Sommet numéro "+(z+1)+" a "+nombre+" successeurs.\n");
 				
 				if (nombre != 0){
-					System.out.println("Parmi eux, voici quelques descripteurs : \n");
+					//System.out.println("Parmi eux, voici quelques descripteurs : \n");
 					for(int y = 0; y<sommets[z].getArcs().size(); y++){
 						int num_descripteur = sommets[z].getArcs().get(y).getDescripteur();
-						System.out.println("Descripteur " + y + " = " + descripteurs[num_descripteur]+"\n") ;
+						//System.out.println("Descripteur " + y + " = " + descripteurs[num_descripteur]+"\n") ;
 					}
 				}
 			}
@@ -259,7 +259,8 @@ public class Graphe {
      *  Verifie que le chemin est empruntable et calcule le temps de trajet.
      */
     public void verifierChemin(DataInputStream dis, String nom_chemin) {
-	
+		 
+		Chemin chemin;
 	try {
 	    
 	    // Verification du magic number et de la version du format du fichier .path
@@ -290,10 +291,16 @@ public class Graphe {
 	    int current_zone = 0 ;
 	    int current_node = 0 ;
 
+			// Construction du chemin
+			chemin = new Chemin(current_zone, nb_noeuds, first_node, last_node);
+
+
 	    // Tous les noeuds du chemin
 	    for (int i = 0 ; i < nb_noeuds ; i++) {
 				current_zone = dis.readUnsignedByte() ;
 				current_node = Utils.read24bits(dis) ;
+                //ajout du noeud au chemin
+				chemin.addNoeud(current_node, i);
 				System.out.println(" --> " + current_zone + ":" + current_node) ;
 	    }
 
@@ -302,6 +309,10 @@ public class Graphe {
 		    System.exit(1) ;
 			}
 
+			// Calcul du cout du chemin
+			chemin.calculerCout(sommets, descripteurs);
+			System.out.println("Le chemin " + nom_chemin + " a un coût égal à " + chemin.getCout() + " minutes.") ;
+			
 	} catch (IOException e) {
 	    e.printStackTrace() ;
 	    System.exit(1) ;
